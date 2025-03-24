@@ -31,11 +31,11 @@ public class SellerLoginServlet extends HttpServlet {
                 RequestDispatcher rd = req.getRequestDispatcher("SellerHome.html");
 
                 rd.include(req, res);
-                pw.println("    <div id=\"topmid\"><h1>Welcome to Online <br>Book Store</h1></div>\r\n"
+                pw.println("    <div id=\"topmid\"><h1>Welcome to  <br>ReReads</h1></div>\r\n"
                         + "    <br>\r\n"
                         + "    <table class=\"tab\">\r\n"
                         + "        <tr>\r\n"
-                        + "            <td><p>Welcome "+user.getFirstName()+", Happy Learning !!</p></td>\r\n"
+                        + "            <td><p>Welcome "+user.getFirstName()+", Happy Reading !!</p></td>\r\n"
                         + "        </tr>\r\n"
                         + "    </table>");
             } else {
